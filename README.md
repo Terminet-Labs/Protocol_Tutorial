@@ -18,6 +18,14 @@ Privacy-enabled blockchain platform for open finance and a responsible data econ
 
 Staking Tutorial - [How to Stake rose using the Oasis web wallet and browser extension wallet](https://medium.com/@Terminet/oasis-delegation-guide-8af1b6ed621d)
 
+If you are interested in Fetch.ai network and want to run a validator node, this document will hopefully give you some help. 
+
+Validator Tutorial(en) - [Oasis Node Deployment and Migration Manual](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/Oasis%20Node%20Deployment%20and%20Migration%20Manual.md)
+
+Validator Tutorial(zn) - [Oasis节点部署和迁移手册](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/Oasis%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2%E5%92%8C%E8%BF%81%E7%A7%BB%E6%89%8B%E5%86%8C.md)
+
+Node RPC For developer - [OasisAPI-rosetta-gateway](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/OasisAPI-rosetta-gateway-en.md)
+
 
 ## Fetch_ai 
 Fetch.ai - An open-access decentralized machine learning blockchain-based network.
@@ -25,6 +33,7 @@ Fetch.ai - An open-access decentralized machine learning blockchain-based networ
 Staking Tutorial - [How to Stake FET with Fetch.ai Browser Extension Wallet](https://medium.com/@Terminet/fetch-ai-staking-guide-how-to-stake-fet-with-fetch-ai-browser-extension-wallet-827e389d3cec)
 
 If you are interested in Fetch.ai network and want to run a validator node, this document will hopefully give you some help.
+
 Validator Tutorial - [Fetch.ai Node Deployment and Migration Tutorial](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Fetch_ai/fetch%20node%20deployment%20and%20migration%20manual.md)
 
 
