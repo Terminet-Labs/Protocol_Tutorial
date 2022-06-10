@@ -1,4 +1,4 @@
-[toc]
+# Fetch.ai Node Deployment and Migration Tutorial
 
 Fetch.ai-An open-access decentralized machine learning blockchain-based network.
 
