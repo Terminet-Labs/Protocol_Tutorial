@@ -1,4 +1,4 @@
-[toc]
+## OasisAPI Rosetta Gateway
 
 Oasis nodes are divided into validator node, non-validator node, and seed node. If you do not want to deploy nodes in the oasis network and just want to invoke RPC, Terminet opens a non-authenticated node for RPC using oasis-rosetta-gateway, which exposes a subset of the consensus layer via the [Rosetta API](https://www.rosetta-api.org/). 
 
@@ -16,17 +16,17 @@ Oasis nodes are divided into validator node, non-validator node, and seed node. 
 
 
 
-#### Networks
+## Networks
 
 ​	Mainnet API：https://oasisapi.terminet.io
 
 ​	Testnet API：https://oasistestapi.terminet.io
 
-#### Simple Data API Example
+## Simple Data API Example
 
 For more usage reference：[oasis_rosetta_gateway](https://github.com/oasisprotocol/oasis-rosetta-gateway)
 
-##### 1. Get Network 
+### 1. Get Network 
 
 ```yaml
  # Request
@@ -44,7 +44,7 @@ For more usage reference：[oasis_rosetta_gateway](https://github.com/oasisproto
 
 `network` string is the lowercase hex encoded SHA-512/256 hash of the CBOR encoded genesis document
 
-##### 2. Get Network Status
+### 2. Get Network Status
 
 ```bash
 # Request
@@ -136,7 +136,7 @@ curl -XPOST https://oasistestapi.terminet.io/network/status --data \
 }
 ```
 
-##### 3. Get an Account's Balance
+### 3. Get an Account's Balance
 
 ```bash
 # Request
@@ -182,7 +182,7 @@ curl -XPOST https://oasistestapi.terminet.io/account/balance --data \
 }
 ```
 
-#####  4. Get a Block
+###  4. Get a Block
 
 ```bash
 # Request
@@ -281,7 +281,7 @@ If you have any questions, please feel free to reach out to us using our social 
 
 [*Medium*](https://medium.com/@Terminet) *|* [*Twitter*](https://twitter.com/Terminet123) *|*[*Telegram*](https://t.me/+fQGw5EbQ4TE0NDZl) | [*Discord*](https://discord.gg/t2np2jHVSG)
 
-# About Terminet
+## About Terminet
 
 Terminet is a professional Staking and ecosystem service provider. The core team consists of experienced developers, product and operations experts and blockchain enthusiasts with more than 5 years of experience in the blockchain industry.
 
