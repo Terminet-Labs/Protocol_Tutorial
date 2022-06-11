@@ -1,4 +1,5 @@
-[toc]
+
+# Oasis节点部署和迁移手册
 
 Terminet已在Oasis网络部署验证者已经有一段时间了，虽然官方有验证人文档，但是整体比较分散，存在一些与实际操作流程或者真实环境不匹配的情况。
 
@@ -18,7 +19,7 @@ Terminet结合自己实际的节点运维经验，将验证节点部署（包括
 
 
 
-#### 资源导航
+## 资源导航
 
 官网：https://zh.oasisprotocol.org/node
 
@@ -32,7 +33,7 @@ Oasis浏览器插件钱包（支持主网和测试网）：https://docs.oasis.de
 
 测试网水龙头：https://faucet.testnet.oasis.dev
 
-#### 主机硬件要求
+## 主机硬件要求
 
  [官方详细参考](https://docs.oasis.dev/general/run-a-node/prerequisites/hardware-recommendations)
 
@@ -41,7 +42,7 @@ Oasis浏览器插件钱包（支持主网和测试网）：https://docs.oasis.de
 | Ubuntu18.04、1核CPU、2G内存、50G系统盘              | localhost操作（无需网络，用于离线生成文件，提供给server部署节点） |
 | Ubuntu18.04、4核CPU、8G内存、100G系统盘、300G数据盘 | server操作                                                   |
 
-#### 主机初始化
+## 主机初始化
 
 1. 若有数据盘,在/opt上挂载
 
@@ -76,13 +77,13 @@ EOF
 ulimit -n
 ```
 
-#### 运行验证器节点
+## 运行验证器节点
 
 加入主网和测试网的操作步骤一样，其中genesis文件和种子节点不一样，oasis二进制可能一样，若有更新则可参考该链接：https://docs.oasis.dev/general/oasis-network/network-parameters
 
 为了保证密钥文件安全性，localhost操作和server操作可在不同服务器上执行
 
-##### localhost操作
+### localhost操作
 
 初始化实体和验证人，创建部署server节点所需的密钥和其他文件，可在离线服务器上操作（前提是机器上有oasis-node二进制）
 
@@ -150,7 +151,7 @@ oasis-node registry entity update \
  
 ```
 
-##### server操作
+### server操作
 
 1. 创建目录结构
 
@@ -299,7 +300,7 @@ oasis-node control is-synced -a unix:/opt/oasis_server/node/internal.sock
 
 [官网质押提示](https://docs.oasis.dev/general/manage-tokens/advanced/oasis-cli-tools/common-staking-info)
 
-##### localhost操作
+### localhost操作
 
 1. 查看实体ID的质押账户地址 
 
@@ -411,7 +412,7 @@ $ cat signed-register.tx
   }
 ```
 
-##### server操作
+### server操作
 
 将生成的两个签名文件复制到server目录下并提交
 
@@ -425,7 +426,7 @@ oasis-node consensus submit_tx --transaction.file /opt/oasis_server/signed-regis
 ```
 
 
-#### 迁移验证者节点操作
+## 迁移验证者节点操作
 
 > 说明：停原节点，将节点目录打包到新节点重启即可；oasis节点短时间离线不会有其他影响，离线超过一小时会退出活跃集，待重启后会恢复加入活跃集。
 
@@ -485,7 +486,7 @@ $ tail -f oasis-node.log  |grep block_hash
 ```
 
 
-#### 其他操作
+## 其他操作
 
 - 查看节点当前区块高度
 
@@ -665,7 +666,7 @@ $ tail -f oasis-node.log  |grep block_hash
 
 
 
-#### zabbix监控节点
+## zabbix监控节点
 
 1. 使用zabbix自带模版监控CPU/内存/磁盘/网络状态
 
@@ -740,7 +741,7 @@ elif operation == 'day':
 
 
 
-# 关于Terminet
+## 关于Terminet
 
 Terminet是一家专业的Staking和生态系统服务提供商。核心团队由经验丰富的开发人员、产品和运营专家以及区块链爱好者组成，在区块链行业拥有超过5年的经验。
 
