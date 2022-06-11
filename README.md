@@ -20,7 +20,7 @@ Staking Tutorial - [How to Stake rose using the Oasis web wallet and browser ext
 
 If you are interested in Fetch.ai network and want to run a validator node, this document will hopefully give you some help. 
 
-Validator Tutorial(en) - [Oasis Node Deployment and Migration Manual](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/Oasis%20Node%20Deployment%20and%20Migration%20Manual.md)
+Validator Tutorial(en) - [Oasis Node Deployment and Migration Manual](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/Oasis%20Node%20Deployment%20and%20Migration%20Tutorial.md)
 
 Validator Tutorial(zn) - [Oasis节点部署和迁移手册](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Oasis_Network/Oasis%E8%8A%82%E7%82%B9%E9%83%A8%E7%BD%B2%E5%92%8C%E8%BF%81%E7%A7%BB%E6%89%8B%E5%86%8C.md)
 
