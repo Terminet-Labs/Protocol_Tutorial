@@ -1,4 +1,4 @@
-[toc]
+# Oasis Node Deployment and Migration Tutorial.md
 
 Oasis Network is the leading privacy-enabled and scalable layer-1 blockchain network to propel Web3 forward.
 
@@ -18,7 +18,7 @@ Terminet combines its actual node operation and maintenance experience, and summ
 
 
 
-#### Resource 
+## Resource 
 
 Official website：https://zh.oasisprotocol.org/node
 
@@ -32,7 +32,7 @@ Browser(Mainnet and testnet support)：https://www.oasisscan.com
 
 Testnet faucet：https://faucet.testnet.oasis.dev
 
-#### Host Hardware Requirements
+## Host Hardware Requirements
 
  [Official detailed reference](https://docs.oasis.dev/general/run-a-node/prerequisites/hardware-recommendations)
 
@@ -41,7 +41,7 @@ Testnet faucet：https://faucet.testnet.oasis.dev
 | Ubuntu18.04、1 CPU、2G memory、50GB system disk              | localhost operation（No network required, used to generate files offline and provided to server deployment nodes） |
 | Ubuntu18.04、4 CPU、8G memory、100GB system disk、300GB data disk | Server operation                                             |
 
-#### Host initialization
+## Host initialization
 
 1. If there is a data disk,Please mount it in the /opt directory
 
@@ -76,13 +76,13 @@ EOF
 ulimit -n
 ```
 
-#### Run the validator node
+## Run the validator node
 
 Except that the genesis file, seed node, and oasis binary are different, the other steps to join the main and test networks are the same, if there is an update, please refer to this link：https://docs.oasis.dev/general/oasis-network/network-parameters
 
 To ensure the security of the key file, the localhost operation and the server operation are executed on different servers
 
-##### Localhost operation
+### Localhost operation
 
 Initialize the entity and authenticator, create the keys and other files needed to deploy the server node
 
@@ -150,7 +150,7 @@ oasis-node registry entity update \
  
 ```
 
-##### Server operation
+### Server operation
 
 1. Create a directory structure
 
@@ -295,11 +295,11 @@ DcplOZzEDthLHtPyjbtn9nldfzZ5b9r8EJFnD3JTGMI=
 oasis-node control is-synced -a unix:/opt/oasis_server/node/internal.sock
 ```
 
-#### Staking
+## Staking
 
 [Official website staking tips](https://docs.oasis.dev/general/manage-tokens/advanced/oasis-cli-tools/common-staking-info)
 
-##### localhost operation
+### localhost operation
 
 1. View the staking account address of the entity ID
 
@@ -411,7 +411,7 @@ $ cat signed-register.tx
   }
 ```
 
-##### Server operation
+### Server operation
 
 Copy the generated two signature files to the server directory and submit
 
@@ -424,7 +424,7 @@ oasis-node consensus submit_tx --transaction.file /opt/oasis_server/signed-escro
 oasis-node consensus submit_tx --transaction.file /opt/oasis_server/signed-register.tx -a unix:/serverdir/node/internal.sock
 ```
 
-#### Migrating validator node operations
+## Migrating validator node operations
 
 > Note: Stop the original node, package the node directory to the new node and restart it; the oasis node will be offline for a short time and will not have other effects. If it is offline for more than an hour, it will exit the active set, and will resume joining the active set after restarting.
 
@@ -486,7 +486,7 @@ $ tail -f oasis-node.log  |grep block_hash
 
 
 
-#### Other operations
+## Other operations
 
 - View the current block height of the node
 
@@ -665,7 +665,7 @@ $ tail -f oasis-node.log  |grep block_hash
 
 
 
-#### Zabbix monitoring node
+## Zabbix monitoring node
 
 1. Use zabbix's own template to monitor CPU/memory/disk/network status
 
@@ -738,7 +738,7 @@ If you have any questions, please feel free to reach out to us using our social 
 
 [*Medium*](https://medium.com/@Terminet) *|* [*Twitter*](https://twitter.com/Terminet123) *|*[*Telegram*](https://t.me/+fQGw5EbQ4TE0NDZl) | [*Discord*](https://discord.gg/t2np2jHVSG)
 
-# About Terminet
+## About Terminet
 
 Terminet is a professional Staking and ecosystem service provider. The core team consists of experienced developers, product and operations experts and blockchain enthusiasts with more than 5 years of experience in the blockchain industry.
 
