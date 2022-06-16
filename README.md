@@ -42,6 +42,12 @@ StaFi - A cross chain staking derivative protocol that aims to unlock liquidity 
 
 Staking Tutorial - [How to Stake FIS with Polkadot JS](https://medium.com/@Terminet/stafi-staking-guide-645be3cd2e66)
 
+If you don't want to deploy StaFi nodes, you can use Terminet's publicly available free Node RPC service:
+
+Node RPC For developer(en) - [Terminet-StaFi_Node API_User_Guide](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/StaFi_Protocol/Terminet-StaFi_Node%20API_User_Guide.md)
+
+Node RPC For developer(zn) - [Terminet-StaFi节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/StaFi_Protocol/Terminet-StaFi%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
 
 ## IRIS Network
 Service oriented regional hub in the Cosmos ecosystem
