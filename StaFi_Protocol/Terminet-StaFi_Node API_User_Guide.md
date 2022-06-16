@@ -1,4 +1,4 @@
-[TOC]
+# Terminet-StaFi_Node API_User_Guide
 
 Stafi is a decentralized protocol that empowers liquidity. Stafi built on Substrate will connect to Polkadot as a parachain, sharing Polkadot's underlying consensus. 
 
@@ -20,7 +20,7 @@ You can refer to the API provided in this document to connect to the StaFi proto
 
 
 
-#### Network
+## Network
 
 Mainnet API: RPC: https://stafiapi.terminet.io/rpc
 
@@ -30,11 +30,11 @@ Testnet API: RPC: https://stafitestapi.terminet.io
 
 ​					 WS: wss://stafitestapi.terminet.io/ws
 
-#### Simple Data API Example
+## Simple Data API Example
 
 More documentation on using parameters: https://polkadot.js.org/docs/substrate/rpc
 
-##### 1、View the rpc methods exposed by the node
+### 1、View the rpc methods exposed by the node
 
 ```shell
 # Request
@@ -131,7 +131,7 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
 }
 ```
 
-##### 2、View chain information
+### 2、View chain information
 
 ```shell
 # request
@@ -145,7 +145,7 @@ system_chain", "params":[]}' https://stafitestapi.terminet.io/rpc
 }
 ```
 
-##### 3、Get block height information
+### 3、Get block height information
 
 Get the block height information of the current node
 
@@ -180,7 +180,7 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
 }
 ```
 
-##### 4、Get node block high hash
+### 4、Get node block high hash
 
 ```shell
 # Request
@@ -201,7 +201,7 @@ $ curl -H "Content-Type: application/json" https://stafitestapi.terminet.io/rpc 
 }
 ```
 
-##### 5、Check if the session key exists
+### 5、Check if the session key exists
 
 Returns true if the keystore has private keys for the given session public keys.
 
@@ -224,7 +224,7 @@ $ curl -H "Content-Type: application/json" https://stafitestapi.terminet.io/rpc 
 }
 ```
 
-##### 6、Search chain type
+### 6、Search chain type
 
 ```shell
 # Request
@@ -237,7 +237,7 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
 }
 ```
 
-##### 7、View node health status
+### 7、View node health status
 
 ```shell
 # Request
@@ -253,4 +253,15 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
   "id": 1
 }
 ```
+---
+
+If you have any questions, please feel free to reach out to us using our social media channels as below
+
+[*Medium*](https://medium.com/@Terminet) *|* [*Twitter*](https://twitter.com/Terminet123) *|*[*Telegram*](https://t.me/+fQGw5EbQ4TE0NDZl) | [*Discord*](https://discord.gg/t2np2jHVSG)
+
+## About Terminet
+Terminet is a professional Staking and ecosystem service provider. The core team consists of experienced developers, product and operations experts and blockchain enthusiasts with more than 5 years of experience in the blockchain industry.
+
+Terminet has years of technical expertise in distributed high performance computing, node infrastructure, network, hardware, API support and storage for the Web 3 ecosystem, and is dedicated to helping investors and ordinary Token holders profit from digital assets. Build a reliable, secure and easy-to-use web3 infrastructure service layer to lower web3 connecting barriers and web3 application development thresholds, powering web3 development.
+
 
