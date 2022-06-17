@@ -54,6 +54,12 @@ Service oriented regional hub in the Cosmos ecosystem
 
 Staking Tutorial - [How to Delegate with the Rainbow Mobile App](https://medium.com/@Terminet/irisnet-delegation-guide-181c75e0d09b)
 
+If you do not want to deploy a node and just want to call the node API for use, Terminet provides a public and reliable RPC node for community users.
+
+Node RPC For developer(en) - [Terminet-IRISnet_Node API_User_Guide](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/IRISnet/Terminet-IRISnet_Node%20API_User_Guide.md)
+
+Node RPC For developer(zb) - [Terminet-IRISnet节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/IRISnet/Terminet-IRISnet%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
 
 ## Alaya Network
 The prototype and business sandbox for the next generation of financial infrastructure.
