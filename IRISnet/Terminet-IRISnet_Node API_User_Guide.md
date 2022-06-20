@@ -4,6 +4,13 @@ The IRISnetis designed to provide a technological foundation that facilitates bu
 
 **If you do not want to deploy a node and just want to call the node API for use, Terminet provides a public and reliable RPC node for community users.**
 
+Welcome to delegate IRIS to Terminet validator.
+
+>Validator Name: Terminet
+>
+>Validator Address: iva194s9c46x6vr9drynsm5dupkeleqzejtszmxdnx
+>
+>https://irishub.iobscan.io/#/staking/iva194s9c46x6vr9drynsm5dupkeleqzejtszmxdnx
 
 
 *You can refer to the API address provided in this document to connect to the IRIS network and query the data on the chain via the relevant call methods.* 
