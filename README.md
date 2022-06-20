@@ -37,6 +37,14 @@ If you are interested in Fetch.ai network and want to run a validator node, this
 Validator Tutorial - [Fetch.ai Node Deployment and Migration Tutorial](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Fetch_ai/fetch%20node%20deployment%20and%20migration%20manual.md)
 
 
+if you don't want to deploy a node and simply call the node API, Terminet provides a public and reliable RPC node for free use by community users.
+
+Node RPC For developer(en) - [Terminet-Fetch.ai Node_API_User_Guide](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Fetch_ai/Terminet-Fetch.ai_Node_API_User_Guide.md)
+
+Node RPC For developer(zn) - [Terminet-Fetch.ai节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Fetch_ai/Terminet-Fetch.ai%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
+
+
 ## StaFi Protocol
 StaFi - A cross chain staking derivative protocol that aims to unlock liquidity of staked assets.
 
