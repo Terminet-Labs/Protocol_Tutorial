@@ -84,7 +84,20 @@ Staking Tutorial - [How To delegate CertiK $CTK with Deepwallet](https://medium.
 
 Node RPC For developer(en) - [Terminet - CertiK(Shentu) API User Guide](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Certik/Terminet-CertiK(Shentu)_API%20_User_Guide.md)
 
-Node RPC For developer(zb) - [Terminet - CertiK(Shentu) API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Certik/Terminet-CertiK(Shentu)%20API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+Node RPC For developer(zn) - [Terminet - CertiK(Shentu) API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Certik/Terminet-CertiK(Shentu)%20API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
+
+## Gravity_Bridge
+Gravity Bridge is a purpose-built, fully decentralized, trustless blockchain that bridges assets between the Ethereum and Cosmos ecosystems.
+
+Staking Tutorial - [Gravity Bridge Delegation Guide-How To Delegate $GRAV With Keplr](https://medium.com/@Terminet/gravity-bridge-delegation-guide-how-to-delegate-grav-with-keplr-aee086e572a4)
+
+👉*If you do not want to deploy a node and just want to call the node API for use, Terminet provides a public and reliable RPC node for community users.*
+
+Node RPC For developer(en) - [Terminet-Gravity Bridge Node API User Guide](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Gravity_Bridge/Terminet-Gravity_Bridge_Node_API_User_Guide.md)
+
+Node RPC For developer(zn) - [Terminet-Gravity Bridge节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Gravity_Bridge/Terminet-Gravity_Bridge%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
+
 
 
 
