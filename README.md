@@ -45,6 +45,10 @@ Node RPC For developer(en) - [Terminet-Fetch.ai Node_API_User_Guide](https://git
 
 Node RPC For developer(zn) - [Terminet-Fetch.ai节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Fetch_ai/Terminet-Fetch.ai%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 
+## Ethereum2.0
+Ethereum 2.0 is an ambitious multi-year network upgrade of Ethereum. The upgrade is intended to achieve better scalability, security and decentralization of Ethereum 2.0.
+
+[Eh2.0-How to stake ETH using Metamask in Lido](https://medium.com/@Terminet/eth2-0-how-to-stake-eth-using-metamask-in-lido-48c0bb3d9cb7)
 
 
 ## StaFi Protocol
@@ -98,6 +102,34 @@ Node RPC For developer(en) - [Terminet-Gravity Bridge Node API User Guide](https
 
 Node RPC For developer(zn) - [Terminet-Gravity Bridge节点API使用说明](https://github.com/Terminet-Labs/Protocol_Tutorial/blob/main/Gravity_Bridge/Terminet-Gravity_Bridge%E8%8A%82%E7%82%B9API%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)
 
+
+## Lum Network
+Lum Network provides a decentralized review system to help consumers make the right, informed choice for their products. The Lum Network is based on Tendermint and the Cosmos SDK, aiming to use IBC to bolster and collaborate with the Cosmos ecosystem.
+
+Staking Tutorial - [Tutorials-How to stake LUM via keplr connected to the lum wallet platform](https://medium.com/@Terminet/tutorials-how-to-stake-lum-via-keplr-connected-to-the-lum-wallet-platform-539c51a4e4e3)
+
+
+## Razor 
+Razor Network is a decentralized oracle providing data to the smart contracts using a network of stakers. Razor is not only fast but also extremely robust and economically secure.
+
+Staking Tutorial - [Razor Delegation Guide — How to stake $RAZOR via MetaMask connected to the Razorscan](https://medium.com/@Terminet/razor-delegation-guide-how-to-stake-razor-via-metamask-connected-to-the-razorscan-e4b60bf80006)
+
+
+## RIZON
+RIZON is a Tendermint-based hub blockchain that enables creating digital assets. It aims to be a digital currency blockchain hub and supports governance and features for stable token creation.
+
+Staking Tutorial - [Rizon Delegation Guide — How to stake $ATOLO via Keplr connected to the OmniFlix platform](https://medium.com/@Terminet/rizon-delegation-guide-how-to-stake-atolo-via-keplr-connected-to-the-omniflix-platform-14ea0aff470a)
+
+## Axelar
+Axelar delivers secure cross-chain communication for Web3. Axelar infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.
+
+Staking Tutorial - [Axelar Delegation Guide-How to Stake Axelar with Keplr Wallet](https://medium.com/@Terminet/axelar-delegation-guide-how-to-stake-axelar-with-keplr-wallet-48d464d6c925)
+
+
+## Findora
+Findora is a decentralized, privacy-preserving smart contract platform. Build the next privacy dApp for any EVM-chain with the world’s leading zero-knowledge technology-explore all new possibilities.
+
+Staking Tutorial - [Findora Network Delegation Guide-How to delegate Terminet Validator and earn staking rewards?](https://medium.com/@Terminet/findora-network-delegation-guide-how-to-delegate-terminet-validator-and-earn-staking-rewards-c1b85826e11d)
 
 
 
